@@ -1,0 +1,30 @@
+print "What beverages do you like?? a.Chilled or b. Hot"
+
+beverage = raw_input(">> ")
+
+if beverage == "a":
+  print "1: Alcoholic beverages"
+  print "2: Fruity drinks "
+  
+  bev = raw_input(">> ")
+  
+  if bev == "1":
+    print "Do you fancy spirits??You better start doing so coz thats what we serve for starters"
+  elif bev == "2":
+      print "There are lots of fruity juices around!!"
+       
+  
+elif beverage == "b":
+    print "1:Want some milk??"
+    print "2: Want coffee?"
+    
+    drink = raw_input(">>")
+    
+    if drink ==  "1":
+      print "There goes your cup of milk"
+    elif drink == "2":
+        print "We don't serve coffee around here"  
+        
+else:
+    print "We only offer the things in our menu."        
+        

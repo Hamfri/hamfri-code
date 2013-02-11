@@ -1,0 +1,10 @@
+def counter(counts):
+   houses = counts * 500
+   doors = houses * 5
+   windows = doors * 5
+   return houses, doors ,windows
+start_at = 100
+houses, doors, windows = counter(start_at)   
+
+print "We have %d Houses, %d Doors and %d Windows" % (houses, doors, windows)
+   
